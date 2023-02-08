@@ -7,7 +7,6 @@ async function run() {
   core.info(`job is : ${core.getInput('job')}`)
   
   
-  core.setOutput('age', `${name}/100`)
 }
 
 run()
