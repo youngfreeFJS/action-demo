@@ -5,6 +5,11 @@ inputs:
     description: 'usr name'
     required: true
     default: 'zhangsan'
+  human:  
+    description: 'is human?'
+    required: true
+  not_required:
+    description: 'not required'
 outputs:
   age:
     description: 'usr name age'
