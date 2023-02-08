@@ -1,0 +1,13 @@
+name: 'Demo'
+description: 'Demo of test github action'
+inputs:
+  name:  
+    description: 'usr name'
+    required: true
+    default: 'zhangsan'
+outputs:
+  age:
+    description: 'usr name age'
+runs:
+  using: 'node16'
+  main: 'index.js'
